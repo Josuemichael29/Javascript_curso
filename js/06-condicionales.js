@@ -32,3 +32,17 @@ if(edad >= 18){
  if(year != 2016){
      console.log("El año no es 2016")
  }
+
+ //AND
+ if(year >= 2000 && year <= 2020){
+     console.log("Estamos en la era actual.");
+ }else{
+     console.log("Estamos en la era moderna.");
+ }
+
+ //OR
+ if(year == 2016 || year == 2018 || (year == 2014 && year == 2020)){
+     console.log("Es año bisiesto."); //mentira jaja
+ }else{
+     console.log("Año no registrado.")
+ }
